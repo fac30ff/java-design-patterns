@@ -13,7 +13,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>builder</module>
+        <module>factory</module>
     </modules>
+
 
 
 </project>
