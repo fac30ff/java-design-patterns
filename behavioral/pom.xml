@@ -9,15 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>creational</artifactId>
+    <artifactId>behavioral</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>builder</module>
-        <module>factory</module>
-        <module>prototype</module>
-        <module>singleton</module>
-    </modules>
-
-
 
 </project>

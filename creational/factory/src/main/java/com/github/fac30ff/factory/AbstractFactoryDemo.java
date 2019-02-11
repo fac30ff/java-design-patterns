@@ -80,7 +80,7 @@ class HotDrinkMachine {
 
         // option 2: find all implementors of IHotDrinkFactory
         Set<Class<? extends IHotDrinkFactory>> types =
-                new Reflections("com.activemesa.creational.factories") // ""
+                new Reflections("com.github.fac30ff.factory") // ""
                         .getSubTypesOf(IHotDrinkFactory.class);
         for (Class<? extends IHotDrinkFactory> type : types) {
             namedFactories.add(new Pair<>(

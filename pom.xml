@@ -11,6 +11,8 @@
         <module>solid</module>
         <module>builder</module>
         <module>creational</module>
+        <module>structural</module>
+        <module>behavioral</module>
     </modules>
     <packaging>pom</packaging>
 
