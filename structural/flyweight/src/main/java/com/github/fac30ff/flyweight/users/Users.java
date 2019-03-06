@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 class User {
     private String fullName;
@@ -30,7 +29,7 @@ class User2 {
         };
 
         names = Arrays.stream(fullName.split(" "))
-                .mapToInt(s -> getOrAdd.apply(s)).toArray();
+                .mapToInt(getOrAdd::apply).toArray();
     }
 
     public String getFullName() {
